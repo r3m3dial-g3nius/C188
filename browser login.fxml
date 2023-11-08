@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0">
+         <children>
+            <TabPane prefHeight="600.0" prefWidth="1200.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Contacts">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </Tab>
+                <Tab text="Sales Tracking">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </Tab>
+                  <Tab text="Reports">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0">
+         <children>
+            <VBox prefHeight="500.0" prefWidth="400.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="68.0" prefWidth="400.0" text="American Video Game Company" textAlignment="CENTER">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="30.0" prefHeight="65.0" prefWidth="400.0" text="Login" textAlignment="CENTER">
+                     <font>
+                        <Font name="Times New Roman Bold" size="48.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="400.0" text="Email" textAlignment="CENTER">
+                     <font>
+                        <Font name="Times New Roman" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <StackPane prefHeight="49.0" prefWidth="400.0">
+                     <children>
+                        <TextField alignment="CENTER" maxWidth="359.0" prefHeight="25.0" prefWidth="359.0" promptText="Enter the email associated with your AVGC account">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="50.0" prefHeight="34.0" prefWidth="400.0" text="Password" textAlignment="CENTER">
+                     <font>
+                        <Font name="Times New Roman" size="24.0" />
+                     </font>
+                  </Label>
+                  <StackPane layoutX="10.0" layoutY="90.0" prefHeight="49.0" prefWidth="400.0">
+                     <children>
+                        <TextField alignment="CENTER" maxWidth="359.0" prefHeight="25.0" prefWidth="359.0" promptText="Enter your AVGC password">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="32.0" prefWidth="400.0">
+                     <children>
+                        <CheckBox alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Show password" />
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="71.0" prefWidth="400.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Login">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="90.0" prefHeight="40.0" prefWidth="400.0" text="Forgot password?" textAlignment="CENTER" textFill="#0073ff">
+                     <font>
+                        <Font name="Times New Roman" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
